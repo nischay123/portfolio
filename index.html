@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nischay Garg | Front-End Engineer | React.js, TypeScript Developer</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Nischay Garg is a Front-End Engineer specializing in React.js, TypeScript, and scalable UI development.">
+  <meta name="keywords" content="Nischay Garg, Front-End Developer, React Developer, TypeScript Engineer, JavaScript Developer, UI Engineer, Web Developer, PocketFM, TCS, NSUT, Portfolio, Job Portal App, GitHub, LinkedIn, Radix UI, ShadCN, Cypress, Git, CI/CD">
+
+  <!-- Social Sharing -->
+  <meta property="og:title" content="Nischay Garg | Front-End Engineer Portfolio">
+  <meta property="og:description" content="Portfolio of Nischay Garg, a React.js and TypeScript developer with experience at PocketFM and TCS.">
+  <meta property="og:image" content="profile.jpg">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://your-portfolio-url.com">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Nischay Garg | Front-End Engineer Portfolio">
+  <meta name="twitter:description" content="Explore the projects, experience, and skills of Nischay Garg, a skilled React.js and TypeScript developer.">
+  <meta name="twitter:image" content="profile.jpg">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <img src="profile.jpg" alt="Nischay Garg" class="profile-pic" />
+    <h1>Nischay Garg</h1>
+    <p>Front-End Engineer | React.js | TypeScript</p>
+    <div class="links">
+      <a href="mailto:nischaygarg200@gmail.com">Email</a>
+      <a href="https://github.com/nischay123">GitHub</a>
+      <a href="https://www.linkedin.com/in/nischay-garg-front-end/">LinkedIn</a>
+      <a href="https://naukri-job-post-portal.netlify.app/">Job Post App</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="animate">
+      <h2>About Me</h2>
+      <p>I am a passionate Front-End Engineer with experience modernizing legacy React applications, improving UI performance, and collaborating across teams. I love working with React.js, TypeScript, and building efficient, scalable interfaces.</p>
+    </section>
+
+    <section class="animate">
+      <h2>Experience</h2>
+      <h3>PocketFM (Feb 2022 – Present)</h3>
+      <ul>
+        <li>Modernized legacy React 15 codebase using latest standards.</li>
+        <li>Led CI/CD deployment with GitHub Actions & Jenkins.</li>
+        <li>Authored 200+ PRs, mentored juniors, integrated DRM, and boosted team velocity.</li>
+      </ul>
+
+      <h3>TCS (Jul 2021 – Feb 2022)</h3>
+      <ul>
+        <li>Worked on internal tools and loyalty program for banking clients.</li>
+      </ul>
+
+      <h3>Internships</h3>
+      <ul>
+        <li><strong>Evren Global:</strong> Built modular React components, integrated APIs.</li>
+        <li><strong>Redcat India:</strong> Developed educational web apps with React.</li>
+      </ul>
+    </section>
+
+    <section class="animate">
+      <h2>Projects</h2>
+      <p><strong>Job Post App</strong>: A React-based job listing platform to help recruiters post and manage jobs. Built with responsive design for cross-device usability. <a href="https://naukri-job-post-portal.netlify.app/" target="_blank">Live Demo</a></p>
+    </section>
+
+    <section class="animate">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Tech, CSE</strong> – NSUT East Campus, Delhi (8.5 CGPA)</li>
+        <li><strong>Senior Secondary</strong> – Govt. S.B.V Nangloi, Delhi (83.6%)</li>
+      </ul>
+    </section>
+
+    <section class="animate">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> JavaScript, TypeScript, HTML, CSS, C/C++</li>
+        <li><strong>Libraries:</strong> React.js, Redux, Cypress, Radix UI, ShadCN</li>
+        <li><strong>Tools:</strong> Git, GitHub, Postman, VS Code, Chrome DevTools, Jenkins</li>
+        <li><strong>Testing:</strong> Cypress (Unit/E2E)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Nischay Garg. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('fade-in');
+        }
+      });
+    });
+    document.querySelectorAll('.animate').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
