@@ -30,7 +30,5 @@ This is a personal portfolio website built using **HTML**, **CSS**, and a touch 
 
 ![Portfolio Screenshot](screenshot.png)
 
----
 
-## 📂 Project Structure
 
